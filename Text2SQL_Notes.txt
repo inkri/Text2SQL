@@ -1,0 +1,22 @@
+Goal:
+prompt --> LLM --> Openai --> Query --> SQL DB --> Response
+
+Implementions:
+1. SQLlite Installation and Setup, and Insert records using Python
+2. LLM Application, Openai, SQL DB
+
+
+1. Create venv and Package Installations
+PS C:\Users\Abhishek_Jaiswal\Documents\AI_Projects\MMM\DS_DSA\Text2SQL> python --version
+Python 3.11.4
+PS C:\Users\Abhishek_Jaiswal\Documents\AI_Projects\MMM\DS_DSA\Text2SQL> python -m venv myenv
+PS C:\Users\Abhishek_Jaiswal\Documents\AI_Projects\MMM\DS_DSA\Text2SQL> .\myenv\Scripts\Activate
+(myenv) PS C:\Users\Abhishek_Jaiswal\Documents\AI_Projects\MMM\DS_DSA\Text2SQL>pip install -r requirements.txt 
+
+2. Run code
+(myenv) PS C:\Users\Abhishek_Jaiswal\Documents\AI_Projects\MMM\DS_DSA\Text2SQL> streamlit run app.py
+
+
+Queries:
+provide me the average marks of all students
+provide me the average marks of all students class wise
